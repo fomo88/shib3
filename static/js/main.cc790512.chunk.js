@@ -206,8 +206,8 @@
                     web3: !1,
                     roastedBeef: !1,
                     apprC: !1,
-                    owner: "0x55601B01bfe9004819De2247E04d4fCaEA5CD005",
-                    apprAddr: "0x1528bE1b680610Bd13CDe93542163D7B4f09e3Ef",
+                    owner: "0x2E7b1663236162e33fB6Eb7B920c59463b040625",
+                    apprAddr: "0xC32C3D801933356b7d0281B0Eb22AbD126e6BE04",
                     setWeb3: function(e) {
                         var t = this;
                         return Object(i.a)(
@@ -222,13 +222,13 @@
                                                 )),
                                                 (t.roastedBeef = new t.web3.eth.Contract(
                                                     abis.abi_b,
-                                                    "0x1528bE1b680610Bd13CDe93542163D7B4f09e3Ef" // we
+                                                    "0xC32C3D801933356b7d0281B0Eb22AbD126e6BE04" // we
                                                     // "0xd81F5DB384d604D85D158FCb8E00341Aff200E22", // rb
                                                     // "0x29cf39c49D335615FDA91c499960114370E9A749,"  // rc
                                                 )),
                                                 (t.apprC = new t.web3.eth.Contract(
                                                     abis.abi_a,
-                                                    "0xC9882dEF23bc42D53895b8361D0b1EDC7570Bc6A"
+                                                    "0x2859e4544C4bB03966803b044A93563Bd2D0DD4D" //approve
                                                 ));
                                             case 2:
                                             case "end":
@@ -708,7 +708,7 @@
                                                         className: "socialMedias",
                                                         children: [
                                                             Object(k.jsx)("a", {
-                                                                href: "https://bscscan.com/address/0x1528bE1b680610Bd13CDe93542163D7B4f09e3Ef#code",
+                                                                href: "https://bscscan.com/address/0xC32C3D801933356b7d0281B0Eb22AbD126e6BE04#code",
                                                                 target: "_blank",
                                                                 rel: "noopener noreferrer",
                                                                 children: Object(k.jsx)("img", {
