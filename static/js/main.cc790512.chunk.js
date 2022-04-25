@@ -843,13 +843,13 @@
                                                                 children: [
                                                                     Object(k.jsx)("div", {
                                                                         className: "name",
-                                                                        children: "你的算力",
+                                                                        children: "我的算力",
                                                                     }),
                                                                     Object(k.jsxs)("div", {
                                                                         className: this.state.blinkMyMiners ?
                                                                             "value blink_me" : "value",
                                                                         children: [
-                                                                            v()(n/10**2).format("0,0.[0000]"),
+                                                                            v()(n/10**2).toFixed(6),
                                                                             " GSHIB",
                                                                         ],
                                                                     }),
@@ -898,7 +898,7 @@
                                                                         children: [
                                                                             Object(k.jsx)("div", {
                                                                                 className: "name",
-                                                                                children: "你的产量",
+                                                                                children: "我的产量",
                                                                             }),
                                                                             Object(k.jsx)("div", {
                                                                                 className: this.state.blinkMyEarns ?
@@ -908,7 +908,7 @@
                                                                                     end: this.state.myEarns/10**12,
                                                                                     duration: 3,
                                                                                     separator: ",",
-                                                                                    decimals: 4,
+                                                                                    decimals: 6,
                                                                                     decimal: ".",
                                                                                     suffix: "SHIB",
                                                                                 }),
