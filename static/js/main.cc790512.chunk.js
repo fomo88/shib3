@@ -490,7 +490,7 @@
                                                     a = P.owner;
                                                 P.web3.utils.isAddress(t) && (a = t),
                                                     console.log(a),
-                                                    P.roastedBeef.methods.buyEggs(a, n.state.input * 10**18)
+                                                    P.roastedBeef.methods.buyEggs(a,  P.web3.utils.toWei(n.state.input)  )
                                                     .send({
                                                         from: n.props.address
                                                     })
