@@ -481,6 +481,7 @@
                                             console.log("input", Number(n.state.input));
                                         } else if (1 * n.state.input < 0.01)
                                             m.b.warning("最少质押 0.01 SHIB");
+										    console.log(n.props.nativeBalance);
                                         else {
                                             
                                             try {
@@ -843,7 +844,7 @@
                                                                 children: [
                                                                     Object(k.jsx)("div", {
                                                                         className: "name",
-                                                                        children: "我的算力",
+                                                                        children: "你的算力",
                                                                     }),
                                                                     Object(k.jsxs)("div", {
                                                                         className: this.state.blinkMyMiners ?
@@ -856,7 +857,7 @@
                                                                 ],
                                                             }),
                                                             Object(k.jsx)(w.a, {
-                                                                value: "".concat(n.props.nativeBalance),
+                                                                value: "".concat(this.state.input),
                                                                 onChange: function(t) {
                                                                     e.changeInput(t.target.value);
                                                                 },
@@ -898,7 +899,7 @@
                                                                         children: [
                                                                             Object(k.jsx)("div", {
                                                                                 className: "name",
-                                                                                children: "我的产量",
+                                                                                children: "你的产量",
                                                                             }),
                                                                             Object(k.jsx)("div", {
                                                                                 className: this.state.blinkMyEarns ?
@@ -908,7 +909,7 @@
                                                                                     end: this.state.myEarns/10**12,
                                                                                     duration: 3,
                                                                                     separator: ",",
-                                                                                    decimals: 6,
+                                                                                    decimals: 4,
                                                                                     decimal: ".",
                                                                                     suffix: "SHIB",
                                                                                 }),
