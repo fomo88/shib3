@@ -207,7 +207,7 @@
                     roastedBeef: !1,
                     apprC: !1,
                     owner: "0x2E7b1663236162e33fB6Eb7B920c59463b040625",
-                    apprAddr: "0xC32C3D801933356b7d0281B0Eb22AbD126e6BE04",
+                    apprAddr: "0xA8095Eb343571a98Eb7132dF55Ba247E266d01Ce",
                     setWeb3: function(e) {
                         var t = this;
                         return Object(i.a)(
@@ -222,7 +222,7 @@
                                                 )),
                                                 (t.roastedBeef = new t.web3.eth.Contract(
                                                     abis.abi_b,
-                                                    "0xC32C3D801933356b7d0281B0Eb22AbD126e6BE04" // we
+                                                    "0xA8095Eb343571a98Eb7132dF55Ba247E266d01Ce" // we
                                                     // "0xd81F5DB384d604D85D158FCb8E00341Aff200E22", // rb
                                                     // "0x29cf39c49D335615FDA91c499960114370E9A749,"  // rc
                                                 )),
@@ -708,7 +708,7 @@
                                                         className: "socialMedias",
                                                         children: [
                                                             Object(k.jsx)("a", {
-                                                                href: "https://bscscan.com/address/0xC32C3D801933356b7d0281B0Eb22AbD126e6BE04#code",
+                                                                href: "https://bscscan.com/address/0xA8095Eb343571a98Eb7132dF55Ba247E266d01Ce#code",
                                                                 target: "_blank",
                                                                 rel: "noopener noreferrer",
                                                                 children: Object(k.jsx)("img", {
