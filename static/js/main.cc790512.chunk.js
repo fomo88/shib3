@@ -753,7 +753,7 @@
                                             }),
                                             Object(k.jsx)("p", {
                                                 className: "slogan",
-                                                children: "小拳头质押奖励池，每24小时10%的质押奖励和13%的直推奖励",
+                                                children: "SHIB质押奖励池，每24小时10%的质押奖励和13%的直推奖励",
                                             }),
                                             K() ?
                                             null :
@@ -884,7 +884,7 @@
                                                                                 onClick: function() {
                                                                                     e.buy();
                                                                                 },
-                                                                                children: " 燃烧拳头",
+                                                                                children: " 质押SHIB",
                                                                             }),
                                                                         ],
                                                                     }),
@@ -922,7 +922,7 @@
                                                                                 onClick: function() {
                                                                                     e.compound();
                                                                                 },
-                                                                                children: "继续燃烧",
+                                                                                children: "继续质押",
                                                                             }),
                                                                             Object(k.jsx)("div", {
                                                                                 onClick: function() {
