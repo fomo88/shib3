@@ -904,7 +904,7 @@
                                                                                 className: this.state.blinkMyEarns ?
                                                                                     "value blink_me" : "value",
                                                                                 children: Object(k.jsx)(E.a, {
-                                                                                    start: this.state.myEarnsStart,
+                                                                                    start: this.state.myEarnsStart/10**12,
                                                                                     end: this.state.myEarns/10**12,
                                                                                     duration: 3,
                                                                                     separator: ",",
