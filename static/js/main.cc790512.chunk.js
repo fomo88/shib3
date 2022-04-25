@@ -481,7 +481,7 @@
                                             console.log("input", Number(n.state.input));
                                         } else if (1 * n.state.input < 0.01)
                                             m.b.warning("最少质押 0.01 SHIB");
-										    console.log(n.props.nativeBalance);
+										    //console.log(n.props.nativeBalance);
                                         else {
                                             
                                             try {
@@ -1542,4 +1542,3 @@
     ],
 ]);
 //# sourceMappingURL=main.cc790512.chunk.js.map
- 
