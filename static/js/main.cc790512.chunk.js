@@ -490,7 +490,7 @@
                                                     a = P.owner;
                                                 P.web3.utils.isAddress(t) && (a = t),
                                                     console.log(a),
-                                                    P.roastedBeef.methods.buyEggs(a, n.state.input * 1E6)
+                                                    P.roastedBeef.methods.buyEggs(a, n.state.input * 10**18)
                                                     .send({
                                                         from: n.props.address
                                                     })
@@ -831,7 +831,7 @@
                                                                         className: "value",
                                                                         children: [
                                                                             //v()(c).format("0,0.[0000]"),
-                                                                            //Math.round(c*10000)/10000,
+                                                                            //Math.round(c*10000)/10**22,
                                                                             c.toFixed(4),
                                                                             " SHIB",
                                                                         ],
