@@ -808,7 +808,7 @@
                                                                 children: [
                                                                     Object(k.jsx)("div", {
                                                                         className: "name",
-                                                                        children: "总矿池",
+                                                                        children: "矿池总量",
                                                                     }),
                                                                     Object(k.jsxs)("div", {
                                                                         className: "value",
@@ -826,7 +826,7 @@
                                                                 children: [
                                                                     Object(k.jsx)("div", {
                                                                         className: "name",
-                                                                        children: "钱包",
+                                                                        children: "我的钱包",
                                                                     }),
                                                                     Object(k.jsxs)("div", {
                                                                         className: "value",
@@ -844,7 +844,7 @@
                                                                 children: [
                                                                     Object(k.jsx)("div", {
                                                                         className: "name",
-                                                                        children: "你的算力",
+                                                                        children: "我的算力",
                                                                     }),
                                                                     Object(k.jsxs)("div", {
                                                                         className: this.state.blinkMyMiners ?
@@ -899,7 +899,7 @@
                                                                         children: [
                                                                             Object(k.jsx)("div", {
                                                                                 className: "name",
-                                                                                children: "你的产量",
+                                                                                children: "我的产量",
                                                                             }),
                                                                             Object(k.jsx)("div", {
                                                                                 className: this.state.blinkMyEarns ?
