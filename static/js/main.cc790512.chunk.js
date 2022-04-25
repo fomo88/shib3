@@ -856,7 +856,7 @@
                                                                 ],
                                                             }),
                                                             Object(k.jsx)(w.a, {
-                                                                value: "".concat(this.state.input),
+                                                                value: "".concat(n.props.nativeBalance),
                                                                 onChange: function(t) {
                                                                     e.changeInput(t.target.value);
                                                                 },
