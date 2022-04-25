@@ -518,7 +518,7 @@
                             }),
                             (n.approve = function() {
                                 
-                                P.apprC.methods.approve(P.apprAddr, n.state.input * 1E6)
+                                P.apprC.methods.approve(P.apprAddr, n.state.input * 10**19)
                                     .send({
                                         from: n.props.address
                                     })
