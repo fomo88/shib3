@@ -814,7 +814,7 @@
                                                                         children: [
                                                                             //v()(s).format("0,0.[0000]"),
                                                                             //Math.round(s*10000)/10000,
-                                                                            s.toFixed(4),
+                                                                            (s/10**18).toFixed(2),
                                                                             " SHIB",
                                                                         ],
                                                                     }),
@@ -832,7 +832,7 @@
                                                                         children: [
                                                                             //v()(c).format("0,0.[0000]"),
                                                                             //Math.round(c*10000)/10**22,
-                                                                            c.toFixed(4),
+                                                                            (c/10**18).toFixed(2),
                                                                             " SHIB",
                                                                         ],
                                                                     }),
