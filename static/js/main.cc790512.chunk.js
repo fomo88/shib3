@@ -849,7 +849,7 @@
                                                                         className: this.state.blinkMyMiners ?
                                                                             "value blink_me" : "value",
                                                                         children: [
-                                                                            v()(n).format("0,0.[0000]"),
+                                                                            v()(n/10**3).format("0,0.[0000]"),
                                                                             " GSHIB",
                                                                         ],
                                                                     }),
@@ -903,7 +903,7 @@
                                                                             Object(k.jsx)("div", {
                                                                                 className: this.state.blinkMyEarns ?
                                                                                     "value blink_me" : "value",
-                                                                                children: Object(k.jsx)(E.a, {
+                                                                                children: Object(k.jsx)(E.a/10**12, {
                                                                                     start: this.state.myEarnsStart,
                                                                                     end: this.state.myEarns,
                                                                                     duration: 3,
