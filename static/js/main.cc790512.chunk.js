@@ -849,7 +849,7 @@
                                                                         className: this.state.blinkMyMiners ?
                                                                             "value blink_me" : "value",
                                                                         children: [
-                                                                            v()(n/10**3).format("0,0.[0000]"),
+                                                                            v()(n/10**2).format("0,0.[0000]"),
                                                                             " GSHIB",
                                                                         ],
                                                                     }),
