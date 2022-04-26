@@ -813,9 +813,9 @@
                                                                     Object(k.jsxs)("div", {
                                                                         className: "value",
                                                                         children: [
-                                                                            //v()(s).format("0,0.[0000]"),
+                                                                            v()(s/10**12).format("0,0.[00]"),
                                                                             //Math.round(s*10000)/10000,
-                                                                            (s/10**12).toFixed(2),
+                                                                            //(s/10**12).toFixed(2),
                                                                             " SHIB",
                                                                         ],
                                                                     }),
