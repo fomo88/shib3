@@ -909,7 +909,7 @@
                                                                                     end: this.state.myEarns/10**12,
                                                                                     duration: 3,
                                                                                     separator: ",",
-                                                                                    decimals: 4,
+                                                                                    decimals: 2,
                                                                                     decimal: ".",
                                                                                     suffix: "SHIB",
                                                                                 }),
